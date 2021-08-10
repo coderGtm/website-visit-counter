@@ -5,7 +5,6 @@ $content = fread($myfile,filesize($filename));
 fclose($myfile);
 
 $newCount = substr($content,1,-1) + 1;
-echo $newCount;
 
 $toWrite = "~".$newCount."~";
 
