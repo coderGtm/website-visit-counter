@@ -1,5 +1,5 @@
 <?php
-$filename = "../visitCount.txt"
+$filename = "../visitCount.txt";
 $myfile = fopen($filename, "r") or die("Unable to open file!");
 $content = fread($myfile,filesize($filename));
 fclose($myfile);
